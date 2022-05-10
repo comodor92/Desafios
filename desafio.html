@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+  <main>
+
+    <section id="logo">
+    <img src="Logo.png" alt="Logo de alura">
+    </section>
+
+    <section id="izquierda">
+
+      <textarea name="" id="mensaje" placeholder="Ingrese texto aqui"></textarea>
+
+      <p><img src="Vector.jpg" alt="" id="exclamacion">Solo letras minúscilas y sin acentos</p>
+
+      <div class="botones">
+        <button id="encriptar">Encriptar</button><button id="desencriptar">Desencriptar</button>
+      </div>
+
+    </section>
+
+    <section id="derecha">
+      <textarea id = "salida" type="text" class="invisible"></textarea>
+
+      <div id="contenido">
+        <img src="Muneco.png" alt="Buscando el mensaje oculto">
+        <p class="texto-derecha">Ningún mensaje fue encontrado</p>
+        <p class="texto-derecha">Ingrese el texto que debes encriptar o desencriptar</p>
+      </div>
+
+      <button id="copiar" class="invisible">Copiar</button>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p id="informacion">Alura Challenge/Dev Jorge Robinson</p>
+  </footer>
+</body>
+<script src="desafio.js"></script>
+</html>
